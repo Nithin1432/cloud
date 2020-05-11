@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>List of Dining around the Resort</h1>
+  
+  <p>
+  Starbucks <br>
+The Roost at Ridgeview<br>
+Truth Cafe<br>
+Element 93<br>
+Chick N Bap<br>
+Perigrine Dining Hall<br>
+SUB Cafe<br>
+ </p>
+<p>BREAKFAST/COFFEE HOUSES <br>
+The Bakery, 13A North Front St., 255-8840, $ <br>
+The Cafeteria at New Paltz, 58 Main St., 633-8287, $<br>
+Dunkin Donuts, 250 Main St., 255-7658, $<br>
+Main Street Bistro, 59 Main St., 255-7766, $$<br>
+Mudd Puddle Cafe, 10 Main St., #312, 255-3436, $<br>
+New Paltz Hot Bagels, New Paltz Plaza, 255-4594, $<br>
+Starbucks, 1 Plattekill Ave., 256-9815, $</p><br>
+  <p>CONTACT New Paltz Resort</p>
+  <p>
+Get in touch with our resort to learn more about weekend trips from NYC, spa retreats, special events and more.<br>
+
+New Paltz Resorts, the premier Hudson Valley New York resort, offers timeless accommodations paired with exceptional service and comfortable amenities, all surrounded by stunning natural beauty.
+</p>
+  <p>
+New Paltz Resorts Address:<br>
+1000 Mountain Beach Road<br>
+New Paltz, NY 12561</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Nithin" style="width:100%">
+      <div class="container">
+        <h2>Nithin Reddy</h2>
+        <p class="title">CEO & Founder</p>
+        <p>I am a student at SUNY New Paltz</p>
+        <p>nithin@npresort.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Sarath" style="width:100%">
+      <div class="container">
+        <h2>Sarath</h2>
+        <p class="title">Art Director</p>
+        <p>I am a student at SUNY New Paltz</p>
+        <p>sarath@npresort.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Purna" style="width:100%">
+      <div class="container">
+        <h2>Purna</h2>
+        <p class="title">Designer</p>
+        <p>I graduated from SUNY New Paltz</p>
+        <p>Purna@npresort.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
